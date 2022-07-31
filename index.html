@@ -15,10 +15,41 @@
       body {
         background-color: bisque;
       }
+      .purple-text {
+        color: purple;
+      }
+      .important {
+        font-weight: bold;
+      }
+      #lead-paragraph {
+        color: purple;
+        font-weight: bold;
+      }
+      .important:hover {
+        background-color: coral;
+      }
+      a[href="https://www.arch2o.com/"]
+      {
+        background-color: gold;
+      }
+      a[href="https://www.designboom.com/"]
+      {
+        background-color: aqua;
+      }
     </style>
   </head>
   <body>
     <h1>Welcome!</h1>
-    <p>Everything is fine!</p>
+    <p class="purple-text">Everything is fine!</p>
+    <p class="important purple-text">
+      Everything is not fine since the Federal Reserve increased the interest
+      rates again.
+    </p>
+
+    <p id="lead-paragraph">
+      The world is what we make of it. A cliche with a hint of truth.
+    </p>
+    <a href="https://www.arch2o.com/">Arch2o</a>
+    <a href="https://www.designboom.com/">Design Boom</a>
   </body>
 </html>
